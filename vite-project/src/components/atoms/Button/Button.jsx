@@ -1,7 +1,13 @@
 import "./Button.scss";
 
-const Button = ({ text, fw }) => {
-  return <button className={`btn ${fw && "btn--medium"}`}>{text}</button>;
+const Button = ({ text, fw, special }) => {
+  return (
+    <button
+      className={fw ? "btn btn--medium" : special ? "btn btn--special" : "btn"}
+    >
+      {text}
+    </button>
+  );
 };
 
 export default Button;

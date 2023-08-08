@@ -1,0 +1,29 @@
+@import "../../../scss/foundation/variables";
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #F9C06A6B;
+    background: url('../../../assets/bk-color.svg');
+    gap: 0.6rem;
+    position: relative;
+
+    &__title {
+        font-size: 2.2rem;
+        color: $brown;
+        padding-top: 0.8rem;
+    }
+
+    &__text {
+        font-size: 1.6rem;
+    }
+
+    &__price {
+        font-size: 1.8rem;
+        color: $brown;
+        padding-bottom: 4.05rem;
+    }
+}
+
+

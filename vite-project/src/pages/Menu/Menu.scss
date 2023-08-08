@@ -1,0 +1,27 @@
+@import "../../scss/foundation/_variables.scss";
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    font-family: $play;
+    align-items: center;
+    gap: 1.6rem;
+
+    &__title {
+        font-weight: $bold;
+        color: $brown;
+        font-size: 5.4rem;
+    }
+
+    &__text {
+        font-size: 2rem;
+        color: $grey;
+        line-height: 3.4rem;
+    }
+
+    &__items {
+        display: flex;
+        padding: 1.6rem 9.3rem;
+        gap: 2rem;
+    }
+}

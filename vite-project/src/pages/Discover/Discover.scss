@@ -1,0 +1,46 @@
+@import "../../scss/foundation/_variables.scss";
+
+
+.discover__wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 8.2rem 9.3rem;
+    gap: 9.5rem;
+    align-items: flex-start;
+    justify-content: center;
+    height: 648px;
+
+}
+
+.discover {
+    font-family: $play;
+    display: flex;
+    flex-direction: column;
+    gap: 2.9rem;
+    align-items: flex-start;
+    max-width: 58rem;
+
+
+    &__heading {
+        font-weight: $bold;
+        font-size: 5.4rem;
+        color: $brown;
+    }
+
+    &__text {
+        font-size: 2rem;
+        line-height: 3.4rem;
+        color: $grey;
+    }
+
+    &__img {
+        width: 50rem;
+    }
+
+    &__blast {
+        position: absolute;
+        top: 118.9rem;
+        left:0;
+    }
+}
+

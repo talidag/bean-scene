@@ -1,5 +1,5 @@
 import "./Home.scss";
-import Navbar from "../../components/molecules/Navbar";
+import Navbar from "../../components/molecules/Navbar/Navbar";
 import Button from "../../components/atoms/Button/Button";
 
 const Home = () => {

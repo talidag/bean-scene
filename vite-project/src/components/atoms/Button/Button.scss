@@ -12,5 +12,10 @@
     &--medium {
         font-weight: $medium;
     }
+
+    &--special {
+        position: absolute;
+        bottom: -2.25rem;
+    }
 }
 
