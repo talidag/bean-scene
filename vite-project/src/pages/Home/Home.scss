@@ -1,0 +1,49 @@
+@import "../../scss/foundation/_variables.scss";
+
+.home__container {
+    width:100%;
+    height:100%;
+
+    background: url('../../assets/header.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: $white;
+    font-family: $play;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+
+    // other option is
+    // padding: 18.3rem 74.6rem 9.5rem 9.3rem;
+
+    width: 62rem;
+    padding-left: 9.3rem;
+    padding-top: 11.6rem;
+
+    &__intro {
+        font-size: 2.2rem;
+        font-weight: $medium;
+    }
+
+    &__title {
+        font-family: $clicker;
+        font-size: 22rem;
+        font-weight: $regular;
+    }
+
+    &__description {
+        font-size: 2rem;
+        line-height: 3.4rem;
+        font-weight: $regular;
+        padding-bottom: 2rem;
+    }
+
+    &__btn {
+        align-self: flex-start;
+    }
+}
+

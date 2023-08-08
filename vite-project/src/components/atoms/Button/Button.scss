@@ -1,0 +1,16 @@
+@import "../../../scss/foundation/variables";
+
+.btn {
+    background-color: $orange;
+    border-radius: 2.4rem;
+    border:none;
+    padding: 1.4rem 2.7rem;
+    font-weight: $bold;
+    cursor: pointer;
+    font-family: $play;
+
+    &--medium {
+        font-weight: $medium;
+    }
+}
+
