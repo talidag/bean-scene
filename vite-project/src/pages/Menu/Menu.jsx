@@ -4,6 +4,7 @@ import cappuccino from "../../assets/cappuccino.jpg";
 import macchiato from "../../assets/macchiato.jpg";
 import chai from "../../assets/chai.jpg";
 import expresso from "../../assets/expresso.jpg";
+import Heading from "../../components/atoms/Heading/Heading";
 
 const Menu = () => {
   const menuData = [
@@ -35,7 +36,7 @@ const Menu = () => {
 
   return (
     <div className="menu">
-      <h1 className="menu__title">Enjoy a new blend of coffee style</h1>
+      <Heading text="Enjoy a new blend of coffee style" />
       <p className="menu__text">
         Explore all flavours of coffee with us. There is always a new cup worth
         experiencing

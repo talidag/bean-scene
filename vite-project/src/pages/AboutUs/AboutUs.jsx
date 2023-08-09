@@ -5,6 +5,8 @@ import cup from "../../assets/icons/cup_icon.svg";
 import price from "../../assets/icons/price_icon.svg";
 import CardItem from "../../components/molecules/CardItem/CardItem";
 import Button from "../../components/atoms/Button/Button";
+import Heading from "../../components/atoms/Heading/Heading";
+import Paragraph from "../../components/atoms/Paragraph/Paragraph";
 
 const AboutUs = () => {
   const aboutData = [
@@ -32,10 +34,9 @@ const AboutUs = () => {
 
   return (
     <div className="about">
-      <h1 className="about__title">Why are we different?</h1>
-      <p className="about__text">
-        We don’t just make your coffee, we make your day!
-      </p>
+      <Heading text="Why are we different?" />
+      <Paragraph text="We don’t just make your coffee, we make your day!" />
+
       <div className="about__cards">
         {aboutData.map((item, index) => {
           const { title, description, icon } = item;

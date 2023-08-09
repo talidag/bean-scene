@@ -2,12 +2,13 @@ import "./Discover.scss";
 import Button from "../../components/atoms/Button/Button";
 import cup from "../../assets/cup.svg";
 import leftBlast from "../../assets/blast_left.svg";
+import Heading from "../../components/atoms/Heading/Heading";
 
 const Discover = () => {
   return (
     <div className="discover__wrapper">
       <div className="discover">
-        <h1 className="discover__heading">Discover the best coffee</h1>
+        <Heading text="Discover the best coffee" />
         <p className="discover__text">
           Bean Scene is a coffee shop that provides you with quality coffee that
           helps boost your productivity and helps build your mood. Having a cup

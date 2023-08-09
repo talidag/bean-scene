@@ -11,10 +11,7 @@
 
 
     &__title {
-        font-weight: $bold;
-        color: $brown;
-        font-size: 5.4rem;
-
+    
         &--small {
             font-weight: $bold;
             color: $brown;
@@ -23,16 +20,9 @@
         }
     }
 
-    &__text {
-        font-size: 2rem;
-        color: $grey;
-        line-height: 3.4rem;
-        padding-bottom: 1.6rem;
 
-        &--np {
-            padding-bottom: 0;
-        }
-    }
+    // paragraph had padding-bottom: 1.6rem; and the second one 
+    // padding-bottom: 0;
 
     &__cards {
         display: flex;
