@@ -2,10 +2,10 @@ import "./CardItem.scss";
 
 const CardItem = ({ icon, title, description }) => {
   return (
-    <div>
-      <img src={icon} alt="" />
-      <h1>{title}</h1>
-      <p>{description}</p>
+    <div className="card">
+      <img src={icon} alt="" className="card__img" />
+      <h1 className="card__title">{title}</h1>
+      <p className="card__text">{description}</p>
     </div>
   );
 };

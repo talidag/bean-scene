@@ -1,0 +1,51 @@
+@import "../../scss/foundation/variables";
+
+.layer {
+    background-image: url('../../assets/subscribe.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 80%;
+
+    box-shadow: inset 0 0 0 1000px rgba(#603809,.6);
+
+}
+
+.offer__wrapper {
+    display: flex;
+    align-items: start;
+    gap: 22.5rem;
+    position: relative;
+    color: $white;
+}
+
+.offer {
+    padding: 9.3rem 13.5rem;
+    font-family: $play;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2.2rem;
+
+    &__title {
+        font-size: 5.4rem;
+    }
+
+    &__text {
+        font-size: 2rem;
+    }
+
+    &__img {
+        padding-right: 29.7rem;
+        z-index: 1;
+    }
+
+    &__margin {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
+

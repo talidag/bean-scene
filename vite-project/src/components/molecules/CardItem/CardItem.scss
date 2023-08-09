@@ -1,0 +1,32 @@
+@import "../../../scss/foundation/variables";
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3.6rem 4rem;
+    border: 1px solid #F9C06A6B;
+    background: #FFF9F1;
+    gap: 0.8rem;
+    font-family: $play;
+    width: 28rem;
+    height: 28.4rem;
+    text-align: center;
+    
+    &__img {
+        padding-bottom: 1.7rem;
+    }
+
+    &__title {
+        font-weight: $bold;
+        color: $brown;
+        font-size: 2.8rem;
+    }
+
+    &__text {
+        font-size: 2rem;
+        color: $grey;
+    }
+
+}
