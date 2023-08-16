@@ -6,6 +6,7 @@ import Menu from "./pages/Menu/Menu";
 import Offer from "./pages/Offer/Offer";
 import Subscribe from "./pages/Subscribe/Subscribe";
 import Testimonials from "./pages/Testimonials/Testimonials";
+import ContactUs from "./pages/ContactUs/ContactUs";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Offer />
       <Testimonials />
       <Subscribe />
+      <ContactUs />
     </div>
   );
 };

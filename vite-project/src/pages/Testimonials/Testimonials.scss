@@ -1,0 +1,33 @@
+@import "../../scss/foundation/variables";
+
+.testimonials {
+    padding-top: 8.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    align-items: center;
+    padding: 0 19.3rem 13.8rem 19.3rem;
+    position: relative;
+
+    &__cards {
+        padding-top: 2.9em;
+        position: relative;
+
+    }
+}
+
+.left--blast {
+    position: absolute;
+    z-index: 1;
+    left:0;
+    bottom: 2rem; // pushed it a bit 
+    transform: scaleY(-1);
+
+}
+
+.right--blast {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+
+}

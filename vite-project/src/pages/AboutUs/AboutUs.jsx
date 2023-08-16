@@ -51,7 +51,7 @@ const AboutUs = () => {
         })}
       </div>
       <div className="about__footer">
-        <p className="about__text about__text--np">
+        <p className="about__text">
           Great ideas start with great coffee, Lets help you achieve that
         </p>
         <p className="about__title--small">Get started today.</p>

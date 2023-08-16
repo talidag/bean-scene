@@ -8,23 +8,15 @@
     gap: 9.5rem;
     align-items: flex-start;
     justify-content: center;
-    height: 648px;
-
 }
 
 .discover {
-    font-family: $play;
     display: flex;
     flex-direction: column;
     gap: 2.9rem;
     align-items: flex-start;
     max-width: 58rem;
-
-    &__text {
-        font-size: 2rem;
-        line-height: 3.4rem;
-        color: $grey;
-    }
+    position:relative;
 
     &__img {
         width: 50rem;
@@ -32,8 +24,8 @@
 
     &__blast {
         position: absolute;
-        top: 118.9rem;
-        left:0;
+        top: 31rem;
+        left: -9.3rem;
     }
 }
 

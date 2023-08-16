@@ -8,6 +8,8 @@
     font-weight: $bold;
     cursor: pointer;
     font-family: $play;
+    transition: 0.3s;
+    z-index: 2;
 
     &--medium {
         font-weight: $medium;
@@ -17,5 +19,12 @@
         position: absolute;
         bottom: -2.25rem;
     }
+
+    &:hover {
+        background-color: #FFD280; 
+        transform: translateY(-2px);
+        box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2); 
+    }
 }
+
 

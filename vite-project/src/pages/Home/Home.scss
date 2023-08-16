@@ -1,27 +1,33 @@
 @import "../../scss/foundation/_variables.scss";
 
 .home__container {
-    width:100%;
-    height: 768px; // otherwise couldn't manage position relative
-
+    height: 76.8rem;
     background-image: url('../../assets/header.jpg'); 
     background-repeat:  no-repeat;
     background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
-
     color: $white;
     font-family: $play;
+    position: relative;
+ 
+}
+
+.home__container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(89.82deg, #1E1E1E -6.88%, rgba(0, 0, 0, 0) 87.45%);
+    z-index: 1;
 }
 
 .home {
     display: flex;
     flex-direction: column;
-
-    // other option is
-    // padding: 18.3rem 74.6rem 9.5rem 9.3rem;
+    z-index: 2;
+    position: relative;
 
     width: 62rem;
     padding-left: 9.3rem;
@@ -38,15 +44,10 @@
         font-weight: $regular;
     }
 
-    &__description {
-        font-size: 2rem;
-        line-height: 3.4rem;
-        font-weight: $regular;
-        padding-bottom: 2rem;
-    }
+    &__btn__container {
+        padding-top: 2rem;
+        padding-bottom: 9.5rem;
 
-    &__btn {
-        align-self: flex-start;
     }
 }
 

@@ -6,16 +6,17 @@
     font-family: $play;
     align-items: center;
     gap: 1.6rem;
-
-    &__text {
-        font-size: 2rem;
-        color: $grey;
-        line-height: 3.4rem;
-    }
+    position: relative;
 
     &__items {
         display: flex;
         padding: 1.6rem 9.3rem;
         gap: 2rem;
     }
+}
+
+.blast_right {
+    position: absolute;
+    top: 50rem;
+    right:0;
 }

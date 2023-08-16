@@ -6,4 +6,8 @@
     color: $grey;
     font-weight: $regular;
     font-family: $play;
+
+    &--white {
+        color:$white;
+    }
 }

@@ -20,6 +20,15 @@
         }
     }
 
+    &__text {
+        font-size: 2rem;
+        line-height: 2.6rem;
+        color: $grey;
+        font-weight: $regular;
+        font-family: $play;
+        padding-bottom: 1rem;
+    }
+
 
     // paragraph had padding-bottom: 1.6rem; and the second one 
     // padding-bottom: 0;
@@ -30,6 +39,7 @@
         justify-content: center;
         align-items: center;
         padding-bottom: 1.6rem;
+        padding-top: 1.6rem;
     }
 
     &__footer {

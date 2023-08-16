@@ -1,0 +1,68 @@
+@import "../../../scss/foundation/variables";
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $grey;
+    background-color: #FFF9F1;
+    border: 1px solid #F9C06A6B;
+    padding: 12.9rem 10rem 10.1rem 10rem;
+    font-size: 1.8rem;
+    font-family: $play;
+    height: 52.4rem;
+    text-align: center;
+
+    &__text {
+        padding-bottom: 2.8rem;
+        line-height: 3.6rem;
+    }
+
+    &__name {
+        padding-bottom: 0.4rem;
+        color: $brown;
+        font-size: 3.2rem;
+        font-weight: $bold;
+        line-height: 4.26rem;
+    }
+
+    &__title {
+        font-size: 2rem;
+    }
+    
+    &__picture {
+        position: absolute;
+        bottom: -5.6rem;
+    }
+}
+
+
+.quotation {
+    font-size: 22rem;
+    color: $brown;
+    font-family: $play;
+    position: absolute;
+    top: -0.6rem; // 5.4rem not working - Figma 
+    left: 2.9rem;
+    height: 11.2rem;
+    width: 10.3rem;
+}
+
+.arr--left {
+    position: absolute;
+    left:-5.3rem;
+    top:26.1rem;
+    cursor: pointer;
+}
+
+.arr--right {
+    position: absolute;
+    right: -5.3rem;
+    top:26.1rem;
+    cursor: pointer;
+}
+
+.arr--left:hover, .arr--right:hover {
+    transition: all 1s ease;
+    opacity:0.6;
+}

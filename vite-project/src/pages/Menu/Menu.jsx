@@ -5,6 +5,8 @@ import macchiato from "../../assets/macchiato.jpg";
 import chai from "../../assets/chai.jpg";
 import expresso from "../../assets/expresso.jpg";
 import Heading from "../../components/atoms/Heading/Heading";
+import Paragraph from "../../components/atoms/Paragraph/Paragraph";
+import rightBlast from "../../assets/blast_right.svg";
 
 const Menu = () => {
   const menuData = [
@@ -37,10 +39,11 @@ const Menu = () => {
   return (
     <div className="menu">
       <Heading text="Enjoy a new blend of coffee style" />
-      <p className="menu__text">
-        Explore all flavours of coffee with us. There is always a new cup worth
-        experiencing
-      </p>
+      <Paragraph
+        text="Explore all flavours of coffee with us. There is always a new cup worth
+        experiencing"
+      />
+
       <div className="menu__items">
         {menuData.map((item, index) => {
           const { icon, title, ratio, price } = item;
@@ -55,6 +58,7 @@ const Menu = () => {
           );
         })}
       </div>
+      <img src={rightBlast} alt="" className="blast_right" />
     </div>
   );
 };

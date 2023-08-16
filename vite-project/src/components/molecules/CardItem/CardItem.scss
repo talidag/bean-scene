@@ -21,7 +21,7 @@
     &__title {
         font-weight: $bold;
         color: $brown;
-        font-size: 2.8rem;
+        font-size: 2.6rem;
     }
 
     &__text {
@@ -29,4 +29,7 @@
         color: $grey;
     }
 
+    &:hover {
+        background-color: #FFEED8;
+    }
 }

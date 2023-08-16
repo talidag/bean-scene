@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <nav>
-      <a href="/">
+      <a href="/home" className="logo__anchor">
         <p className="logo">Bean Scene</p>
       </a>
       <div className="links">
