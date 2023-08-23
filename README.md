@@ -1,5 +1,6 @@
-Project Name: Bean Scene
-***
+**Project Name: Bean Scene**
+
+![bean-scene](https://github.com/talidag/bean-scene/assets/120104711/3cab2fc7-251e-4964-ada8-ea01f1a5c545)
 
 This project showcases my journey in implementing a Figma design using React, focusing on advanced CSS techniques like absolute positioning. I create a well-organized project structure using Atomic Design principles.
 
